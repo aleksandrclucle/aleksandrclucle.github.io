@@ -146,7 +146,7 @@ class BluetoothTerminal {
       return Promise.reject(new Error('Data must be not empty'));
     }
 
-  
+    
 
     // Split data to chunks by max characteristic value length.
     const chunks = this.constructor._splitByLength(data,
